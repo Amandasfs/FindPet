@@ -13,21 +13,22 @@
 
 <h2 align="center">🤍 Game 🤍</h2>
 
-<h4>Home</h4>
 
-https://github.com/Amandasfs/FindPet_MemoryGame/blob/main/Project/Find%20Pet!%20-%20Home.mp4
+https://user-images.githubusercontent.com/79655661/229303245-700fe72b-a888-4570-a61a-8551daf19727.mp4
 
-<h4>Duck</h4>
+https://user-images.githubusercontent.com/79655661/229302898-c4656b9b-06a1-4a20-aec9-ae47eff8ef97.mp4
 
-https://github.com/Amandasfs/FindPet_MemoryGame/blob/main/Project/Find%20Pet!%20-%20Duck.mp4
+![Duck](https://user-images.githubusercontent.com/79655661/229302919-99917093-46a9-4cd3-9f7c-6913c395512e.png)
 
-<h4>Dog</h4>
+![Duck open](https://user-images.githubusercontent.com/79655661/229302914-97ea5b7b-2832-4323-9577-9b00f66981c0.png)
 
-https://github.com/Amandasfs/FindPet_MemoryGame/blob/main/Project/Find%20Pet!%20-%20Dog.mp4
+![Cat](https://user-images.githubusercontent.com/79655661/229302931-d8ebd1f6-c449-40b9-8eb7-47657c78ed23.png)
 
-<h4>Cat</h4>
+![cat Open](https://user-images.githubusercontent.com/79655661/229302936-cf990fef-a85b-4ad3-9c69-ea5d90cebd5e.png)
 
-[![Cat](https://github.com/Amandasfs/FindPet_MemoryGame/blob/main/Project/Find%20Duck!%20-%20Cat.mp4)
+![Dog](https://user-images.githubusercontent.com/79655661/229302941-5da49d99-fdea-449b-aed0-fd752f1be0e5.png)
+
+![dog open](https://user-images.githubusercontent.com/79655661/229302938-5fed3e0b-b0f8-44b6-bb6a-746ab228545f.png)
 
 <h2 align="center">💜 Icons: 💜</h2>
 
@@ -38,3 +39,7 @@ Dog: <a href="https://www.flaticon.com/free-icons/dog" title="dog icons">Dog ico
 Cat: <a href="https://www.flaticon.com/free-icons/cat" title="cat icons">Cat icons created by AomAm - Flaticon</a>
 
 Duck:<a href="https://www.flaticon.com/free-icons/duck" title="duck icons">Duck icons created by Freepik - Flaticon</a>
+
+
+
+
