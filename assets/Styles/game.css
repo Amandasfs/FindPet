@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Rampart+One&family=Titan+One&family=Ultra&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    color: #f89221;
+    font-family:'Rampart One', cursive;
+    font-size: 20px;
+    background-color: #6713d2;
+}
+header{
+    padding: 0px 20px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+.points{
+    height: 5rem;
+    width: 8rem;
+    margin-left: 5%;
+    border: 3px solid #f89221;
+    border-radius: 15%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    font-size: 15px;
+}
+button{
+    background-color: #f89221;
+    height: 5rem;
+    width: 8rem;
+    margin-left: 5%;
+    border: 3px solid #EF5350;
+    border-radius: 15%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size: 15px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #8749d8;
+    border: 3px solid #a34ed4;
+    height: 7rem;
+    width: 10rem;
+    transition: .5s cubic-bezier(0.55, 0.025, 0.675, 0.97);
+
+}
+a{
+    text-decoration: none;
+    cursor: pointer;
+    font-family: 'Titan One', cursive;
+    color: #6713d2;
+    transition: .5s cubic-bezier(0.55, 0.025, 0.675, 0.97);
+}
+a:hover{
+    color: #EF5350;
+    font-size: 20px;
+}
+.gameArea{
+    display: flex;
+    flex-direction: row;
+}
+p{
+    margin-left: 5px;
+}
+.memoryGame{
+    height: 35rem;
+    width: 50rem;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    perspective: 1000px;
+}
+.card {
+    height: calc( 33.333% - 10px);
+    width: 25%;
+    margin: 5px;
+    position: relative;
+    cursor: pointer;
+    transform: scale(1);
+    transform-style: preserve-3d; /* adiciona perspectiva 3d, para que o elemento nao fique achatada no plano */
+    transition: transform .9s; /* adiciona efeito de movimento ao flip do card */
+}
+
+.card:active{
+    transform: scale(0.97);
+    transition: transform .2s;
+}
+
+.card-front,
+.card-back {
+  width: 10rem;
+  height: 10rem ;
+  padding: 1.5px;
+  position: absolute;
+  border-radius: 5px;
+  background: #EF5350;
+  backface-visibility: hidden; /* todo elemento tem uma frente e um verso (ao contrario, como um espelho.) essa propriedade retira o verso */
+}
+
+.card-front {
+    transform: rotateY(180deg); /* antes, o verso aparecia transparente, pois ambas as imagens tem position absolute, ao girar no eixo Y, elas ficaram com os versos virados */
+}
+
+/* flip card animation */
+
+.card.flip {
+    transform: rotateY(180deg);
+}
